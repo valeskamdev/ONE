@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrelas</title>
+</head>
+
+<body>
+
+    <script>
+        function pulaLinha() {
+            return document.write("<br>")
+        }
+
+        function estrelas() {
+            for (var i = 0; i < 3; i++) {
+                for (var j = 0; j < 10; j++) {
+                    document.write("*");
+                } 
+                pulaLinha();
+            }
+        }
+
+        estrelas();
+    </script>
+
+</body>
+
+</html>
